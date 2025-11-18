@@ -1,0 +1,108 @@
+/* Header.css */
+
+.dt-header {
+    height: 88px;
+    padding: 0 32px;
+    border-radius: 16px;
+    background: #F0F0F0;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 1.07);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .dt-brand {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+  }
+  
+  .dt-brand__mark {
+    height: 48px;
+  }
+  
+  .dt-brand__text {
+    display: flex;
+    gap: 4px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: #0e1b3c;
+  }
+  
+  .dt-brand__label--accent {
+    color: #0029ff;
+  }
+  
+  .dt-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .dt-icon-btn {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    border: none;
+    border-radius: 50%;
+    background: #e8f0ff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 150ms ease, box-shadow 150ms ease;
+  }
+  
+  .dt-icon-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 16px rgba(0, 42, 255, 0.15);
+  }
+  
+  .dt-icon-btn img {
+    width: 28px;
+    height: 28px;
+  }
+  
+  .dt-icon-btn__badge {
+    position: absolute;
+    top: 11px;
+    right: 14px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff4d67;
+  }
+  
+  .dt-avatar {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  }
+  
+  .dt-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .dt-menu {
+    width: 24px;
+    height: 24px;
+    padding: 0;
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  
+  .dt-menu span {
+    width: 1px;
+    border-radius: 20px;
+
+    border: 2px solid #3683F0
+  }

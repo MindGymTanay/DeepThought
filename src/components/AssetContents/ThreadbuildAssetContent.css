@@ -1,0 +1,142 @@
+.threadbuild {
+  border-radius: 18px;
+  background: #fff;
+  overflow: hidden;
+}
+
+.threadbuild__section {
+  padding: 18px 20px;
+}
+
+.threadbuild__section--intro {
+  background: #f7f4ef;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.threadbuild__label {
+  margin: 0;
+  font-weight: 600;
+  color: #111;
+}
+
+.threadbuild__text {
+  margin: 4px 0 0;
+  font-size: 13px;
+  color: #444;
+}
+
+.threadbuild__section--thread {
+  background: #fffdf7;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.threadbuild__section-title {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.threadbuild__chevron {
+  font-size: 20px;
+  font-weight: 600;
+  transform: rotate(180deg);
+}
+
+.threadbuild__inputs {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
+}
+
+.threadbuild__input {
+  display: flex;
+  flex-direction: column;
+  background: #f7f7f7;
+  border-radius: 18px;
+  border: 1px solid #e4e7ee;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  font-size: 13px;
+  color: #000;
+  padding: 16px;
+}
+
+.threadbuild__input textarea {
+  border: 1px solid #e4e7ee;
+  border-radius: 12px;
+  padding: 10px 12px;
+  resize: vertical;
+  font-family: inherit;
+  min-height: 90px;
+}
+
+.threadbuild__input--summary textarea {
+  min-height: 140px;
+}
+
+.threadbuild__icon-row {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.threadbuild__pill-row {
+  height: 28px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.threadbuild__tool-icons {
+  flex: 2 1 260px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.threadbuild__tool-icons span {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: #dadada;
+}
+
+.threadbuild__selects {
+  flex: 1 1 160px;
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+}
+
+.threadbuild__selects button {
+  border-radius: 5px;
+  border: 1px solid #e4e7ee;
+  background: #fff;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 9px 18px;
+}
+
+.threadbuild__cta {
+  margin-top: 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.threadbuild__cta button {
+  border: none;
+  border-radius: 999px;
+  background: #1a56f0;
+  color: #fff;
+  font-weight: 600;
+  padding: 10px 24px;
+  cursor: pointer;
+}
+
+.threadbuild__section--summary {
+  background: #fff;
+}

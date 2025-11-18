@@ -1,0 +1,27 @@
+.structure-asset {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding:16px;
+}
+
+.structure-asset label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 13px;
+  color: #111;
+}
+
+.structure-asset input,
+.structure-asset textarea {
+  border-radius: 10px;
+  border: 1px solid #d5dae3;
+  padding: 10px 12px;
+  font-family: inherit;
+  font-size: 13px;
+}
+
+.structure-asset textarea {
+  resize: vertical;
+}
